@@ -1,6 +1,5 @@
 /*
  //  CWBlockTimer.m
- //  Zangetsu
  //
  //  V2 - Rewritten using dispatch_source_t instead of NSTimer
  //
