@@ -1,5 +1,8 @@
 #CWBlockTimer
-Simple Timer class that uses the dispatch_source api's to fire a block every n seconds.
+Simple Timer class that uses the dispatch_source api's to fire a block every n seconds. 
+
+##Assertion Macros
+The only external code this project makes use of is [CWAssertionMacros](https://github.com/Machx/CWAssertionMacros) (also under BSD License) which is easy to replace if you want to use `NSAssert()` or something else instead. 
 
 ##License 
 CWBlockTimer is released under the BSD License
