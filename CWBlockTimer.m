@@ -93,6 +93,18 @@
     return self;
 }
 
+-(void)resume {
+    if (self.source) {
+        dispatch_resume(self.source);
+    }
+}
+
+-(void)suspend {
+    if (self.source) {
+        dispatch_suspend(self.source);
+    }
+}
+
 -(void)invalidate {
 	if (self.source) {
 		dispatch_source_cancel(self.source);
